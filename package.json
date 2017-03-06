@@ -1,0 +1,32 @@
+{
+  "name": "confluence-health",
+  "version": "1.0.0",
+  "description": "Healthchecks for Confluence.",
+  "main": "server/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "https://github.com/Financial-Times/confluence-health.git",
+  "author": "Jon Nangle <jon.nangle@ft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@financial-times/n-express": "^18.1.2",
+    "forever": "^0.15.3",
+    "n-health": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "lintspaces-cli": "^0.6.0",
+    "mocha": "^3.2.0",
+    "ms": "^0.7.2",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "6.9.1"
+  }
+}
