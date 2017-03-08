@@ -11,11 +11,6 @@ $(info Note — An .env file exists. Its contents have been exported as environm
 endif
 endif
 
-# Enforce repo ownership
-ifeq ("$(wildcard ft.yml)","")
-$(error 'Projects making use of n-makefile *must* define an ft.yml file containing the repo owner's details (see any next- repo for required structure)')
-endif
-
 # ./node_modules/.bin on the PATH
 export PATH := ./node_modules/.bin:$(PATH)
 
