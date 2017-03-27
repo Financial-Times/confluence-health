@@ -7,11 +7,11 @@ const healthCheckDir = process.env.HEALTHCHECK_DIR || path.resolve(__dirname, '.
 const healthChecks = health(healthCheckDir).asArray();
 
 const app = module.exports = express({
-	systemCode: 'memb-confluence',
+	systemCode: 'confluence',
 	healthChecks: healthChecks,
 	withBackendAuthentication: false,
 	withServiceMetrics: false,
-	healthChecksAppName: 'Membership Confluence',
+	healthChecksAppName: 'Confluence',
 });
 
 app.use((req, res, next) => {
