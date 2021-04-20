@@ -14,7 +14,7 @@
   "author": "Jon Nangle <jon.nangle@ft.com>",
   "license": "MIT",
   "dependencies": {
-    "@financial-times/n-express": "^19.22.6",
+    "@financial-times/n-express": "^19.23.4",
     "forever": "^2.0.0",
     "n-health": "^3.3.1"
   },
